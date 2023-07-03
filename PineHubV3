@@ -1,3 +1,10 @@
+shared.key = "79ddc587ee8eae6a7d3044e972b3389c" 
+ 
+KeyLink = "https://link-hub.net/379508/get-key-3"
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Leaked233/PineHubV3/main/PineHubV3", true))()
+ 
+--------------------------------------------------------------------------------------------------------
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
 local venyx = library.new("🍍PINEHUB🍍", nil)
 local page = venyx:addPage("😈MAGS😈", nil)
