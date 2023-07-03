@@ -1,10 +1,4 @@
-shared.key = "79ddc587ee8eae6a7d3044e972b3389c" 
- 
-KeyLink = "https://link-hub.net/379508/get-key-3"
- 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Leaked233/PineHubV3/main/PineHubV3", true))()
- 
---------------------------------------------------------------------------------------------------------
+
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
 local venyx = library.new("🍍PINEHUB🍍", nil)
 local page = venyx:addPage("😈MAGS😈", nil)
@@ -12,7 +6,6 @@ local section1 = page:addSection("MAGS")
 section1:addButton("Mags(Op)", function()
  local plr = game.Players.LocalPlayer
     local rs = game:GetService("RunService")
-
     function magBall(ball)
         if ball and plr.Character then
             local leftArm = plr.Character:FindFirstChild("Left Arm")
@@ -23,7 +16,6 @@ section1:addButton("Mags(Op)", function()
             end
         end
     end
-
     rs.Heartbeat:Connect(function()
         local footballs = workspace:FindPartsInRegion3(Region3.new(plr.Character.HumanoidRootPart.Position - Vector3.new(50, 50, 50), plr.Character.HumanoidRootPart.Position + Vector3.new(50, 50, 50)), nil, math.huge)
         for _, football in ipairs(footballs) do
